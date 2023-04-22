@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*====================================habilidades*/
+
+.contenedor-skills {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    padding: 15px 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-skills .skill{
+    
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.contenedor{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    justify-content: center;
+
+    padding: 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+@media (max-width:600px){
+    .contenedor-skills{
+        display: block;
+    }
+}
+
+/*.contenedor-skills .skill .lista {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #000000;
+}
+
+/*.contenedor-skills .skill .barra {
+    background-color: #000000;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0px;
+}
+
+.contenedor-skills .skill .barra .barra-progreso1 {
+    background-color: #729b02;
+    width: 70%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso2 {
+    background-color: #729b02;
+    width: 60%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso3 {
+    background-color: #729b02;
+    width: 50%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso4 {
+    background-color: #729b02;
+    width: 85%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+}
+
+*/
